@@ -1,0 +1,11 @@
+#!/usr/bin/perl
+print "\n Hello to you world from 'perl' \n";
+print "\n what is your name ? ";
+$name = <STDIN>;
+print "\n and 'perl' says hello to you too, $name \n";
+
+
+
+
+
+

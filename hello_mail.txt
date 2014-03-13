@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+print "\n Hello to you world from 'perl' \n";
+print "\n what is your name ? ";
+$name = <STDIN>;
+print "\n and 'perl' says hello to you too, $name \n";
+print "\n AND 'perl' is sending you e-mail tooo ... \n";
+open MAIL, "|mail gordonr2b@gmail.com";
+print MAIL "perl send you ($name) this e-mail.\n";
+close MAIL;
