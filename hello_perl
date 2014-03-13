@@ -2,7 +2,7 @@
 print "\n Hello to you world from 'perl' & git test branch \n";
 print "\n what is your name ? ";
 $name = <STDIN>;
-print "\n and 'perl' says hello to you too, $name this is a change from sally \n";
+print "\n and 'perl' says hello to you too, $name this is a change\n";
 
 
 
